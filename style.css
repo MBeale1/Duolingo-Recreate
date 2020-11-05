@@ -1,0 +1,197 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  background-color: rgb(35, 83, 144);
+  
+  position: sticky;
+  top: 0;
+}
+header img{
+  height: 36px;
+  width: 153px;
+  padding: 10px 24px;
+}
+header p{
+  padding: 0px 24px;
+}
+header .drop{
+  position: relative;
+  display: inline-block;
+
+}
+header .content{
+  display: none;
+  position: absolute;
+  /* z-index: 1; */
+  background-color: rgb(255, 255, 255);
+  right:0;
+  border-radius: 20px
+}
+.drop:hover .content{
+  display: flex;
+}
+
+
+.starter{
+  display: flex;
+  align-items: center;
+  background-color:rgb(35, 83, 144);
+}
+.starter img{
+  height: max(20vw,150px);
+  width: max(20vw,150px);
+  padding: 25px;
+}
+.starter div{
+  display: flex;
+  flex-direction: column;
+}
+.starter .get-started{
+  width:272px;
+  border-radius: 20px;
+  background-color: lime;
+  color:white;
+  padding: 10px 0px 10px 0px;
+  font-weight: 1000;
+}
+.starter .already-account{
+  width:272px;
+  border-radius: 20px;
+  background-color: rgb(35, 83, 144);
+  color:white;
+  padding: 10px 0px 10px 0px;
+  font-weight: 1000;
+}
+
+
+.learning img{
+  height: 160px;
+  width: 200px;
+}
+.learning{
+  display: flex;
+  padding: 1rem;
+  border: 2px solid rgb(126, 121, 121);
+  border-style: none none solid none;
+}
+
+
+.lessons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(126, 121, 121);
+  border-style: none none solid none;
+}
+
+.lessinfo{
+  display: flex;
+  align-items: center;
+}
+.lessons .less1{
+  display: flex;
+  flex-direction: column;
+}
+.lessons img{
+  height: 160px;
+  width: 240px;
+}
+.lessons .less2{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.duoplus{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(126, 121, 121);
+  border-style: none none solid none;
+}
+
+
+.mobile{
+  display: flex;
+  padding: 1rem;
+  border: 2px solid rgb(126, 121, 121);
+  border-style: none none solid none;
+}
+.mobile button{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px
+}
+.mobile button img{
+  width: 34px;
+  height:34px;
+}
+
+.mobile .buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+
+
+
+
+.schools{
+  display: flex;
+  padding: 1rem;
+  border: 2px solid rgb(126, 121, 121);
+  border-style: none none solid none;
+}
+
+
+.test{
+  display: flex;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(35, 83, 144);
+}
+footer .lists{
+  display: flex;
+  padding:2%;
+}
+
+footer .lang{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw
+}
+footer .lang button{
+  height:50px;
+  width:102px;
+  border-radius: 20px;
+  background-color: lime;
+  color:white;
+}
+footer .lists div{
+  padding:5px;
+  color: white;
+}
+footer ul{
+  list-style: none;
+}
+footer a{
+  color:gray;
+}
+
+
+
+section{
+  padding: 20px 5vw;
+  margin: 10px 0vw;
+}
